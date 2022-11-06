@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+<body>
+    <div class="registration-body">
+        <header class="header-block">
+            <div class="header-wraper">
+                <div class="logo"><a href="index.html"></a></div>
+                
+                <nav class="navigation" id="navigation">
+                    <ul class="ul-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="forecast.html">Forecast</a></li>
+                        <li><a href="index.html">Quality</a></li>
+    
+                    </ul>
+                </nav>
+                <div class="register-login">
+                    <a href="registation.html">Log in/</a>
+                    <a href="registation.html">Registration</a>
+                </div>
+                <div class="burger-bar" id="burger-bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+
+
+<main>
+    <div class="registration-bakcground">
+
+    </div>
+
+    <form method="get" action="action.html" autocomplete="on">
+        <div class="input">
+            <input type="text" name="firstname" id="firstname" placeholder="First name">
+            <div class="error-message" id="firstname-input-error"></div>
+        </div>
+        <div class="input">
+            <input type="text" name="lastname" id="lastname" placeholder="Last name">
+            <div class="error-message" id="lastname-input-error"></div>
+        </div>
+        <div class="input">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <div class="error-message" id="email-input-error"></div>
+        </div>
+        <div>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <div class="error-message" id="password-input-error"></div>
+        </div>
+        <div>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm password">
+            <div class="error-message" id="confirm-password-error"></div>
+        </div>
+
+    </form>
+    <div class="registration1">
+        <button id="registration-btn">REGISTRATION</button>
+    </div>
+</main>
+
+<script src="./js/registration.js"></script>
+<script src="menu.js"></script>
+</div>
+</body>
+
+</html>
